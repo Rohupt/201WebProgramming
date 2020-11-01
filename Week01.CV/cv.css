@@ -1,0 +1,90 @@
+.box-left {
+    width: 30%;
+    max-width: 300px;
+    background: papayawhip;
+    float: left;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box-right {
+    width: 70%;
+    background: cornsilk;
+    float: left;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar-box {
+    width: 320px;
+    height: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    overflow: hidden;
+    object-fit: cover;
+    border: 5px teal solid;
+    border-radius: 50%;
+}
+
+.avatar {
+    width: 90%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.box-left-item {
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+    width: 85%;
+    height: auto;
+}
+
+.bil-heading-text {
+    width: 90%;
+    height: 40px;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: darkcyan;
+    text-align: left;
+    line-height: 40px;
+    position: relative;
+    left: 10%;
+}
+
+.bil-img-container {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    object-fit: cover;
+    display: block;
+    float: left;
+    border-radius: 50%;
+    border: 3px black solid;
+
+}
+
+.bil-img {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bil-content {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-top: 5px;
+}
